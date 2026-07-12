@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Runs
+data/
+src/data/
+runs/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
