@@ -15,7 +15,13 @@ ENV/
 # Data & Runs
 data/
 src/data/
-runs/
+runs/**/*.pth
+runs/**/*.pt
+runs/**/*.ckpt
+runs/**/*.pkl
+
+!runs/**/*.png
+!runs/**/*.jpg
 
 # IDE
 .vscode/
