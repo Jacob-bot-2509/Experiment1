@@ -11,15 +11,13 @@
 
 | 模型 | 数据增强 | 测试准确率  |
 |------|----------|--------|
-| SimpleCNN | 随机翻转 + 裁剪 | 75.94% |
-| ResNet18  | 随机翻转 + 裁剪 | 72.12% |
+| SimpleCNN | 随机翻转 + 裁剪 | 80.36% |
+| ResNet18  | 随机翻转 + 裁剪 | 72.62% |
 
 #### SimpleCNN训练曲线![learning_curves.png](runs/exp1/learning_curves.png)
 #### ResNet18训练曲线![learning_curves.png](runs/exp2/learning_curves.png)
-
 #### SimpleCNN混淆矩阵![confusion_matrix.png](runs/exp1/confusion_matrix.png)
 #### ResNet18混淆矩阵![confusion_matrix.png](runs/exp2/confusion_matrix.png)
-
 ## 结果分析
 ResNet18在相同训练轮次和学习率下准确率低于SimpleCNN，可能是因为
 学习率过小导致收敛缓慢，且网络较深需要更多训练轮次。后续是演讲增大学
